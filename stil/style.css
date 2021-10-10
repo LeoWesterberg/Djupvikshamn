@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../resurser/Fonts/Alegreya/Alegreya-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url('../resurser/Fonts/Cardo/Cardo-Regular.ttf');
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Cardo';
+}
+
+#container{
+    margin:0 auto;
+    width: 1000px;
+    background:#e0eaee;
+    padding: 2.3em;
+}
+img{
+    width: 40%;
+}
+
+body{
+    background: #a5b3bc ;
+    font-size: 100%;
+}
+
+header{
+    background-image: url("../resurser/Djupvik\ bilder/D-12.jpg");
+    background-size: 100%;
+    background-position: -100% -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 5rem;  
+}
+
+nav{   
+    background-color: #69522b;
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 2.8rem;
+}
+nav li{
+    list-style-type: none;
+}
+nav li:hover,nav li:focus{
+    transform: scale(1.15);
+    transition:  ease-out 0.3s;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Alegreya";
+}
+#marked{
+    text-decoration: underline;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+section img{
+    float: right;
+    margin-left: 20px;
+    border-radius: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+article, section, hr{
+    clear: right;
+}
+section li{
+    margin-bottom: 0.5em;
+}
+h4{
+    font-size: 1.05rem;
+}
+h2{
+    color: white;
+    margin-top: 30px;
+    padding: 5px 5px;
+    width: 100%;
+    background-color: #69522b;
+    text-align: center;
+}
+
+p{
+    font-family: "Alegreya"
+}
+
+#nytt h3{
+    margin-bottom: -20px;
+}
+
+.bildtext{
+    margin-top: -1rem;
+    clear:right;
+    float: right;
+}
+
+table, td , th, tr{
+    border-style: solid;
+    border-collapse:collapse;
+}
+table{
+    width: 100%;
+    justify-content: center;
+}
+
+#väder{
+    text-align: center;
+}
+#temp{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #69522b;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+}
+footer p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+

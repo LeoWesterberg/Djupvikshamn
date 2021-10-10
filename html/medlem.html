@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djupvikshamn</title>
+    <link rel="stylesheet" href="../stil/normalize.css">
+    <link rel="stylesheet" href="../stil/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Djupvikshamn</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Startsida</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="gast.html">Gästinformation</a></li>
+                    <li><a href="turist.html">Turistmål</a></li>
+                    <li><a id="marked" href="#">Kontakt & medlemmar</a></li>
+                    <li><a href="english.html">English</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="medlemsinfo">
+                <h2>Medlemsinfo</h2>
+                <table>
+                    <tr>
+                        <th>Förnamn</th>
+                        <th>Efternamn</th>
+                        <th>Mail</th>
+                        <th>Telefonnummer</th>
+                    </tr>
+                    <tr>
+                        <td>Erik</td>
+                        <td>Ekholm</td>
+                        <td>erik@djupvik.se</td>
+                        <td>070-123 45 67</td>
+                    </tr>
+                    <tr>
+                        <td>Bo</td>
+                        <td>Lautin</td>
+                        <td>bo@djupvil.se</td>
+                        <td>071-234 56 78</td>
+                    </tr>
+                    <tr>
+                        <td>Fredrik</td>
+                        <td>Bottarve</td>
+                        <td>fredrik@djupvik.se</td>
+                        <td>072-345 67 89</td>
+                    </tr>
+                    <tr>
+                        <td>Christina</td>
+                        <td>Persson</td>
+                        <td>christina@djupvik.se</td>
+                        <td>073-456 78 90</td>
+                    </tr>
+                    <tr>
+                        <td>Per-Erik</td>
+                        <td>Larsson</td>
+                        <td>pere@djupvik.se</td>
+                        <td>074-567 89 01</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>Fagerström</td>
+                        <td>maria@djupvik.se</td>
+                        <td>075-678 90 12</td>
+                    </tr>
+                    <tr>
+                        <td>Lars</td>
+                        <td>Bengtsson</td>
+                        <td>lars@djupvik.se</td>
+                        <td>076-789 01 23</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="protokoll">
+                <h2>Mötesprotokoll</h2>
+                <article>
+                    <h3 class="date"><time>2019-04-01</time></h3>
+                    <p><b>Ordförande:</b> Erik Ekholm <br>
+                       <b>Sekreterare:</b> Bo Lautin <br>
+                       <b>Närvarande: </b>Erik Ekholm, Bo Lautin, Per-Erik Larsson, Maria Fagerström, Lars Bengtsson</p>
+
+                    <p>Inga tillägg på förra mötes protokoll</p>
+                    <ul>
+                        <li><b>Hamnavgit:</b> Diskussion om att eventuellt höja hamnavgiften för att täcka skötselkostnader</li>
+                       <li><b>Temporär Hamnfogde:</b> Bo Lautin har bett styrelsen att ta fram en temporär hamnfodge Juli/Juni-månad under hans semester </li>
+                       <li><b>Reperation av hamnskada: </b> Diskussion om reparation av skadorna från förra årets incident med finlandsfärjan som for in i hamnen</li>
+                    </ul>
+                </article>
+                <hr>
+                <article>
+                    <h3 class="date"><time>2019-03-01</time></h3>
+                    <p><b>Ordförande:</b> Maria Fagerström <br>
+                       <b>Sekreterare:</b> Per-Erik Larsson <br>
+                       <b>Närvarande: </b>Erik Ekholm, Per-Erik Larsson, Maria Fagerström, Lars Bengtsson</p>
+
+                    <p>Inga tillägg på förra mötes protokoll</p>
+                    <ul>
+                        <li><b>Städning:</b> Planering av datum för den årliga hamnstädningen</li>
+                       <li><b>Semesteransökan:</b> Bo Lautin har ansökt om semester med anledningen "Jag behöver komma bort" </li>
+                       <li><b>Algblomnings: </b>Diskuterad övergång till mer miljövänliga alternativ för bekämpning av algblomning</li>
+                    </ul>
+                </article>
+                
+
+            </section>
+
+
+            <section id="Kontaktuppgifter">
+                    <h2>Kontaktuppgifter</h2>
+                    <p>Hamnfogde Bo Lautin, mobil 0707-920310</p>
+                    
+                    <p>
+                    Djupviks hamnförening<br/>
+                    c/o Ekholm<br/>
+                    Eksta Hägur 170<br/>
+                    623 54 Klintehamn<br/>
+                    </p>
+            </section>
+                <section id="Kontaktformulär">
+                    <h2>Kontaktformulär</h2>
+                    <form method="POST" action="medlem.html">
+                        <fieldset>
+                          <p>
+                            <label for="rubrik">Rubrik för ärendet: </label>
+                            <input type="text" id="rubrik" name="rubrik" />
+                          </p>
+                          <p>
+                            <label for="angående">Val om vad det gäller (Båtplats, Medlem eller Övrigt): </label>
+                            <input type="text" id="angående" name="angående" />
+                          </p>
+                          <p>
+                            <label for="kontaktsätt">Hur man vill bli kontaktad (mail, telefon eller inte alls): </label>
+                            <input type="text" id="kontaktsätt" name="kontaktsätt" />
+                          </p>
+                          <p>
+                            <label for="tel">Telefon: </label>
+                            <input type="tel" id="tel" name="tel" />
+                          </p>
+                          <p>
+                            <label for="email">Mail: </label>
+                            <input type="email" id="email" name="email" />
+                          </p>
+                          <p>
+                            <label for="beskrivning">Beskrivning utav ärendet: </label>
+                            <textarea name="beskrivning" id="beskrivning" rows="2" cols="20"></textarea>
+                          </p>
+                        </fieldset>
+                        <p>
+                          <input type="submit" value="Skicka" />
+                        </p>
+                      </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2019 | Djupvikshamn.se</p>
+            <p>Mailaddress: info@djupvikshamn.se</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
